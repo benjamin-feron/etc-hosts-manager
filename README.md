@@ -15,12 +15,12 @@ $ ln -s $PWD/etc-hosts-manager.sh /usr/bin/etc-hosts-manager
 Add entry :
 
 ```bash
-$ sudo etc-hosts-manager add "host_name ip_address"
+$ sudo etc-hosts-manager add "ip_address hostname"
 ````
 
 Remove entry :
 
 ```bash
-$ sudo etc-hosts-manager remove "host_name ip_address"
+$ sudo etc-hosts-manager remove "ip_address hostname"
 ````
 
