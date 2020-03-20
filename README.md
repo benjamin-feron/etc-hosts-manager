@@ -7,7 +7,7 @@ It's based on [justqyx/manage-etc-hosts.sh](https://gist.github.com/justqyx/38a5
 ```bash
 $ git clone https://github.com/benjamin-feron/etc-hosts-manager.git
 $ cd etc-hosts-manager
-$ ln -s $PWD/etc-hosts-manager.sh /usr/bin/etc-hosts-manager
+$ sudo ln -s $PWD/etc-hosts-manager.sh /usr/bin/etc-hosts-manager
 ````
 
 ## Usage
