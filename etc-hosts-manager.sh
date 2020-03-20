@@ -14,7 +14,7 @@ echo "+$1+$HOSTLINE+"
 remove () {
   if [ -n "$(grep -E "^$HOSTLINE$" $ETC_HOSTS)" ]; then
     echo "$HOSTLINE Found in your $ETC_HOSTS, Removing now...";
-    sudo sed -i '' "/^$HOSTLINE/d" $ETC_HOSTS
+    sudo sed -i "/^$HOSTLINE/d" $ETC_HOSTS
   else
     echo "$HOSTLINE was not found in your $ETC_HOSTS"
   fi
